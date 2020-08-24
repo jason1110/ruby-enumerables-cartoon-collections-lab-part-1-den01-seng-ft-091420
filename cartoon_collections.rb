@@ -5,9 +5,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-new_array = []
 array.each_with_index do |dwarf, number|
-   new_array << number, dwarf
-   end
-  puts new_array 
+
+   
 end
