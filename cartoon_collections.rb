@@ -7,7 +7,7 @@ end
 def list_dwarves(array)
 list = 0 
 array.each do |dwarf| # Use `each_with_index` to enumerate over the provided array
-   if dwarf < dwarf.length
+   if dwarf < array.length
    list += 1
    end
   list
