@@ -7,8 +7,10 @@ end
 def list_dwarves(array)
 list = 0 
 array.each do |dwarf| # Use `each_with_index` to enumerate over the provided array
-  dwarf < dwarf.length
-  list += 1
+   if dwarf < dwarf.length
+   list += 1
+   end
   list
+ end
   # Print a numbered list of each element
 end
