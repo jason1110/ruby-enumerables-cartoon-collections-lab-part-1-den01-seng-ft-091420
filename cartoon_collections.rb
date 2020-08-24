@@ -5,12 +5,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-list = 0 
-array.each do |dwarf| # Use `each_with_index` to enumerate over the provided array
-   
-   list += 1
+array.each_with_index do |dwarf|
+   p dwarf
    end
-  list
- end
-  # Print a numbered list of each element
 end
