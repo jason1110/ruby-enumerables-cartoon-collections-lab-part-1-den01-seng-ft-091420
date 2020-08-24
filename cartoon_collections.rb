@@ -8,5 +8,6 @@ def list_dwarves(array)
 number = 1
 array.each_with_index do |dwarf, number|
   puts "#{number}. #{dwarf}"
+  number += 1
  end
 end
